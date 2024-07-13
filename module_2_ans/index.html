@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <h1>Menu</h1>
   <style>
-
+    .row {
+      width: 100%;
+    }
     #box {
     background color: grey;
     border: 1px solid black;
@@ -16,17 +19,36 @@
     #conent {
       
     }
+    /* pc large */
+    @media (min-width: 992px){
+      .col_pc{
+        width:33.33%;
+    }
+    /* tablet med */
+    @media (min-width: 768px) and (max-width: 991px){
+      .col_tab_1{
+        width: 50%;
+      }
+      .col_tab_2{
+        width: 100%;
+      }
+    }
+    /* mobile small */
+    @media (max-width: 767px){
+      .col_mobile{
+        width: 100%;
+      }
+    }
   </style>
   <body>
+    <div class="row">
+    <div class="col_pc col_tab_1 col_mobile">
+      <div id="box">tester</div>
+    <div id="box">tester 2</div></div>
+    <div class="col_pc col_tab_2 col_mobile">
+    <div id="box">tester 3</div></div>
+    </div>
     
-    <div id="box">tester</div>
-    <div id="box">tester 2</div>
-    /* pc large */
-    @media (min-width: 992px){}
-    /* tablet med */
-    @media (min-width: 768px) and (max-width: 991px){}
-    /* mobile small */
-    @media (max-width: 767px){}
     
   </body>
 </html>
