@@ -21,8 +21,8 @@ h1{
       width: 100px;
       hight: 50px;
       border: 1px solid black;
-     padding-left: 300px;
-      float: right;
+     margin: auto;
+      right: auto;
       text-align: center;
     }
     #box_chicken{
