@@ -23,6 +23,7 @@ h1{
       border: 1px solid black;
       float: right;
       text-align: center;
+      margin: left;
     }
     #box_chicken{
       background-color: pink;
