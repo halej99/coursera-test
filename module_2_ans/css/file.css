@@ -2,6 +2,9 @@
   box-sizing: border-box;
       
     }
+h1{
+  text-align: center;
+}
     .row {
       width: 100%;
     }
