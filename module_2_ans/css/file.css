@@ -1,1 +1,56 @@
-
+* {
+  box-sizing: border-box;
+      
+    }
+    .row {
+      width: 100%;
+    }
+    #box {
+    background-color: grey;
+    border: 1px solid black;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    }
+    
+    #box_title{
+      width: 50px;
+      hight: 50px;
+      border: 1px solid black;
+      float: right;
+    }
+    #box_chicken{
+      background-color: pink;
+    }
+    #box_cow{
+      background-color: tomato;
+    }
+    #box_sushi{
+      background-color: khaki;
+    }
+    
+    /* pc large */
+    @media (min-width: 992px){
+      .col_pc{
+        float: left;
+        width:33.33%;
+      }
+    }
+    /* tablet med */
+    @media (min-width: 768px) and (max-width: 991px){
+      .col_tab_1{
+        float: left;
+        width: 50%;
+      }
+      .col_tab_2{
+        float: left;
+        width: 100%;
+      }
+    }
+    /* mobile small */
+    @media (max-width: 767px){
+      .col_mobile{
+        float: left;
+        width: 100%;
+      }
+    }
