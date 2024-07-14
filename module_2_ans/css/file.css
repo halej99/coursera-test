@@ -1,4 +1,4 @@
-a* {
+* {
   box-sizing: border-box;
       
     }
@@ -21,7 +21,7 @@ h1{
       width: 100px;
       hight: 50px;
       border: 1px solid black;
-      position: right;
+      
       
       text-align: center;
     }
