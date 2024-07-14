@@ -24,7 +24,7 @@ h1{
       float: right;
       position: relative;
       
-      margin: 0px, 0px, 100%, 0px;
+      margin-left: 100%;
       
       text-align: center;
     }
