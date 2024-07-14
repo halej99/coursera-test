@@ -1,4 +1,4 @@
-* {
+a* {
   box-sizing: border-box;
       
     }
@@ -22,7 +22,7 @@ h1{
       hight: 50px;
       border: 1px solid black;
      margin: auto;
-      right: auto;
+      right: relative;
       text-align: center;
     }
     #box_chicken{
