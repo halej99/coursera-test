@@ -22,6 +22,8 @@ h1{
       hight: 50px;
       border: 1px solid black;
       margin-right: 10px;
+      position: absolute;
+      margin:right;
       text-align: center;
     }
     #box_chicken{
