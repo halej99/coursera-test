@@ -17,7 +17,6 @@ h1{
     }
     
     #box_title{
-      position: relative;
       width: 100px;
       hight: 50px;
       border: 1px solid black;
