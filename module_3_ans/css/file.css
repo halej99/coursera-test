@@ -8,3 +8,6 @@
   margin: 0;
   font-size:30px;
 }
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
