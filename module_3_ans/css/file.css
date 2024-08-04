@@ -17,3 +17,7 @@ background-color: teal;
   background-color: teal;
   border: 1px solid black;
 }
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -60px;
+}
