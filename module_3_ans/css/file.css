@@ -8,6 +8,9 @@
   margin: 0;
   font-size:30px;
 }
+#nav-list{
+margin-top: 10px;
+}
 #nav-list a{
   text-align: center;
   border: 1px solid black;
