@@ -14,5 +14,6 @@ background-color: #teal;
 }
 #nav-list a{
   text-align: center;
+  background-color: #teal;
   border: 1px solid black;
 }
