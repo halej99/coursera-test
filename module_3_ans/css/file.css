@@ -10,10 +10,11 @@
 }
 #nav-list{
 background-color: teal;
-color: navy;
+
 }
 #nav-list a{
   text-align: center;
   background-color: teal;
+  color: navy;
   border: 1px solid black;
 }
