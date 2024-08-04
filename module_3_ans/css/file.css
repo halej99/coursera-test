@@ -19,4 +19,7 @@ background-color: teal;
   border: 1px solid black;
 }
 
-#full-tile{background-color: violet;}
+#full-tile{
+  background-color: violet;
+  padding: 10px;
+}
