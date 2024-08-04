@@ -2,6 +2,9 @@ body{
   background-color: wheat;
   color: blue;
 }
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
 #header-nav{
   background-color: skyblue;
   border: 0;
