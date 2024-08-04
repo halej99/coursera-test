@@ -22,6 +22,9 @@ background-color: teal;
   color: navy;
   border: 1px solid black;
 }
+#nave-list a:hover{
+  background: lime;
+}
 
 #full-tile{
   background-color: violet;
