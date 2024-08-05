@@ -9,12 +9,13 @@ body{
   background-color: skyblue;
   border: 0;
   border-radius: 0;
-  color: navy;
+  
 }
 .navbar-brand h1{
   float: left;
   margin: 0;
   font-size:30px;
+  color: navy;
 }
 #nav-list{
 background-color: teal;
