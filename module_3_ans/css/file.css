@@ -11,6 +11,9 @@ body{
   border-radius: 0;
   
 }
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid navy;
+}
 .navbar-brand h1{
   float: left;
   margin: 0;
